@@ -1,0 +1,44 @@
+/* src/components/CommentList.css */
+.comment-list {
+    max-width: 600px;
+    margin: auto;
+  }
+  .comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #777575;
+  }
+  .comment {
+    margin-bottom: 20px;
+    padding: 15px;
+    
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment p {
+    margin-bottom: 10px;
+  }
+  
+  .comment hr {
+    margin-top: 10px;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid #eee;
+  }
+  .new-comment {
+    margin-left: 20px; /* Измените значение на ваш выбор */
+  }
+  /* src/components/CommentList.css */
+.replying {
+    margin-left: 20px; /* Измените значение на ваш выбор */
+  }
+  
+  .replying-to {
+    display: block;
+    margin-top: 5px;
+    font-style: italic;
+    color: #888;
+  }
+  
